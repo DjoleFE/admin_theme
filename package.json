@@ -1,0 +1,16 @@
+{
+  "name": "admin_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass assets/scss/main.scss assets/css/main.css --style compressed",
+    "watch": "sass assets/scss/main.scss assets/css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Djordje Todorovic",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

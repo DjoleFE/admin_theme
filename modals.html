@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin theme</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="app" class="d-flex">
+        <!-- Sidebar -->
+        <aside>
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark h-100" style="width: 280px;" >
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                  <span class="fs-4">Admin theme</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link active" aria-current="page">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a href="accordions.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                      Accordions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="alerts.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                      Alerts
+                    </a>
+                  </li>
+                  <li>
+                    <a href="cards.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                      Cards
+                    </a>
+                  </li>
+                  <li>
+                    <a href="labels.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                      Labels & Badges
+                    </a>
+                  </li>
+                  <li>
+                    <a href="dropdowns.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Dropdowns
+                    </a>
+                  </li>
+                  <li>
+                    <a href="modals.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Modals
+                    </a>
+                  </li>
+                  <li>
+                    <a href="nav_tabs.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Nav tabs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="spinners.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Spinners
+                    </a>
+                  </li>
+                  <li>
+                    <a href="toasts.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Toasts
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tooltips.html" class="nav-link text-white">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Tooltips
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+        </aside>
+        <!-- ./Sidebar -->
+
+        <main class="flex-grow-1 overflow-auto pb-5">
+            <!-- Navigation -->
+            <header class="container-fluid px-5">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <ul class="nav col-12 col-lg-auto py-4 justify-content-center my-md-0 text-small ">
+                        <li>
+                            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                            </form>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                                <strong>mdo</strong>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!-- ./Navigation -->
+
+            <!-- Content -->
+            <div class="container-fluid px-5">
+              <div class="row mt-5">
+                <div class="col">
+                    <h4 class="border-bottom pb-3 mb-5">Modals</h4>
+                </div>
+              </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary text-white">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success text-white mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger text-white" data-bs-toggle="modal" data-bs-target="#scrollable-body">
+                Modal dialog scrollable
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="scrollable-body" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="scrollableBodyLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab impedit ratione blanditiis, asperiores sequi nam hic est odit adipisci eum quidem non nihil molestias culpa quos consequatur incidunt beatae! Non?
+                      Sit maxime expedita officiis quas non quia rem veniam inventore ex unde sed necessitatibus officia, nam, iste dolorum reiciendis quisquam doloribus delectus dolor optio doloremque soluta sapiente illo fugiat. Quod.
+                      Ratione expedita nesciunt quisquam ea nemo, dolore inventore minima assumenda obcaecati, libero atque aspernatur facilis quidem, voluptate pariatur tenetur ducimus vel modi! Ut recusandae aliquam neque culpa assumenda accusantium voluptates!
+                      Eaque officiis sit dolorum aspernatur, nulla reiciendis animi magnam fugiat nihil repellat, tenetur laboriosam similique ea asperiores est placeat, neque excepturi inventore fuga doloremque cupiditate error a expedita. Tempore, doloribus?
+                      Iste sed dolor ex, eaque voluptates magni sunt temporibus suscipit provident voluptate illum quisquam consequatur modi esse earum architecto expedita optio neque nesciunt autem. Voluptatum magnam amet labore officiis totam.
+                      Laboriosam aliquam quaerat dicta sequi eum omnis voluptates natus provident enim nesciunt voluptatum dolorem architecto, dolore perspiciatis, unde, harum explicabo et reprehenderit quos molestias? Dolor quia quidem maxime molestias itaque!
+                      Exercitationem doloremque nisi vero mollitia aliquid, iste ullam sit beatae, aut eius voluptates laborum laudantium? Amet sit odit temporibus eum qui incidunt! Explicabo laudantium similique optio iste, odit architecto! Accusamus.
+                      Consequuntur nobis debitis animi natus dolor maiores repellat tenetur! Perferendis saepe quo molestiae ipsum vero quos laborum non. Ad atque consectetur quia suscipit libero? Perspiciatis voluptatibus soluta a quia nisi?
+                      Sunt autem doloremque consequuntur, incidunt, repudiandae reprehenderit cupiditate iste dicta, quasi temporibus sapiente esse aliquid dignissimos? Provident, deleniti architecto sapiente dolores voluptatum corrupti in perferendis sunt asperiores quod iste recusandae.
+                      Qui facilis aspernatur, ut magnam odit possimus mollitia fuga libero praesentium cupiditate esse quos! Sunt odit delectus labore qui quae placeat tenetur quasi, dicta minima unde, alias facilis deleniti pariatur?
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <!-- ./Content -->
+
+
+        </main>
+    </div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

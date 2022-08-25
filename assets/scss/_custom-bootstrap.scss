@@ -1,0 +1,84 @@
+// Default variable overrides
+$body-bg: #323a67;
+$body-color: #fff;
+
+$primary: #007bff;
+$secondary: #5d5cac;
+$info: #4f8dca;
+$success: #07be6e;
+$danger: #f9423c;
+$warning: #ffc107;
+$light: #b8c7ce;
+$dark: #292d5a;
+$white: #ffffff;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$gradient: linear-gradient(-45deg, rgba($white, .30), rgba($white, 0));
+
+//cards
+$card-bg: $dark;
+$card-border-radius: 4px;
+
+//Accordions
+$accordion-button-active-bg: lighten($light, 30%);
+$accordion-padding-y: 1.125rem;
+
+
+// Alerts
+$alert-bg-scale: -10%;
+$alert-border-scale: -20%;
+
+// Badges
+$badge-padding-y: .55em;
+$badge-padding-x: 1em;
+
+// Dropdowns
+$dropdown-bg: $dark;
+$dropdown-link-color:$light;
+$dropdown-link-hover-color: $dark;
+$dropdown-font-size: 1.125rem;
+$dropdown-divider-bg: $light;
+$dropdown-padding-y: .75rem;
+
+$dropdown-header-color:$white;
+$dropdown-item-padding-y:  .5rem;
+
+// Modals
+$modal-backdrop-bg: $dark;
+$modal-backdrop-opacity: .75;
+$modal-fade-transform: scale(.65);
+$modal-transition: transform .2s ease-out;
+$modal-content-color: $dark;
+
+// Nav tabs
+$nav-tabs-link-active-bg: $light;
+$nav-tabs-link-active-color: $dark;
+$nav-tabs-link-active-border-color:$light;
+
+
+// Spinners
+
+$spinner-width: 4rem;
+$spinner-border-width:    .15em;
+$spinner-animation-speed: .85s;
+
+$spinner-width-sm: 2rem;
+
+// Toasts
+$toast-max-width: 400px;
+$toast-background-color: $dark;
+$toast-header-background-color: $light;
+
+// Tooltips
+
+$tooltip-font-size: 1rem;
